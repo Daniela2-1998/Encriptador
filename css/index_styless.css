@@ -59,10 +59,11 @@ main{
     background:#D8DFE8;
     border: 1px solid #0A3871;
     border-radius: 24px;
-    color: white;
+    color: #0A3871;
     height: 67px;
     width: 328px;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .btn_encriptar{
@@ -72,6 +73,7 @@ main{
     color: white;
     height: 67px;
     width: 328px;
+    cursor: pointer;
 }
 
 .copiar{
@@ -83,4 +85,5 @@ main{
     margin-top: 402px;
     position: absolute;
     width: 336px;
+    cursor: pointer;
 }
