@@ -3,7 +3,7 @@
     font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
-    line-height: 150%;
+    line-height: 80%;
 }
 
 .logo{
@@ -22,6 +22,7 @@ main{
     border: none;
     color: #0A3871;
     margin-top: 90px;
+    width: 695px;
     text-transform: lowercase;
 }
 
@@ -33,9 +34,27 @@ main{
     outline: none;
 }
 
+.informacion{
+    color: #0A3871;
+    font-weight: bolder;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.informacion:hover{
+    font-size: 30px;
+    border: #0A3871;
+    text-align: center;
+    background-color: #0A3871;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
 .mensaje{
     background-color: white;
     background-image: url("/img/Muñeco.png");
+    background-position: 10px;
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
@@ -44,6 +63,7 @@ main{
     margin-top: 20px;
     padding-left: 20px;
     position: absolute;
+    height: 600px;
 }
 
 .mensaje:focus{
@@ -82,7 +102,7 @@ main{
     color: #0A3871;
     height: 67px;
     margin-left: 108px;
-    margin-top: 402px;
+    margin-top: 525px;
     position: absolute;
     width: 336px;
     cursor: pointer;
