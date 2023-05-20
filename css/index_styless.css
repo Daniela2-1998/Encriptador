@@ -122,17 +122,15 @@ main{
 
 .redes_contenedor{
     height: 30px;
-    width: 10%;
-    margin-top: 43%;
-    margin-left: -46%;
+    width: 11%;
+    margin-top: 65%;
+    margin-left: -67%;
     padding: 2%;
     background:#D8DFE8;
     border: 2px solid #0A3871;
     border-radius: 24px;
     color: #0A3871;
-    display: flex;
     justify-content:space-evenly;
-    position: relative;
 }
 
 .color{

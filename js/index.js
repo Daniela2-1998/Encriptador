@@ -49,7 +49,7 @@ function copiarMensaje(mensaje){
     console.log("Mensaje copiado con éxito: " + mensajeACopiar);
 }
 
-function botonLimpiarCampos(textArea.value){
-    return textArea.normalize("NFD").replace(/[^a-zA-Z0-9 ]/g, "");
-    document.alert("Campos vacíos");
+function botonLimpiarCampos(mensaje){
+    //return textArea.normalize("NFD").replace(/[^a-zA-Z0-9 ]/, "");
+    document.querySelector(".mensaje").value = "";
 }
